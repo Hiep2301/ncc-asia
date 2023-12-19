@@ -1,0 +1,26 @@
+.app-container {
+  display: flex;
+
+  .side-bar-container {
+    background-color: #191718;
+    width: 150px;
+    height: 100vh;
+  }
+
+  .content-container {
+    width: 100%;
+
+    .content-main {
+      width: 1200px;
+      margin: auto;
+      padding-top: 20px;
+    }
+
+    .footer-container {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid #dedede;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.side-bar-list-items {
+  display: flex;
+  flex-direction: column;
+
+  .side-bar-item {
+    color: #aaaaaa;
+    max-width: 100%;
+    padding: 16px 0 16px 14px;
+    border-bottom: 1px solid #5c5c5c;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #5c5c5c;
+      color: #fff;
+    }
+  }
+
+  .side-bar-item-active {
+    color: #fff;
+  }
+}
